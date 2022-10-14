@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Inter';
+    font-size: 40px;
+    src: local('Inter'), url("font/Inter-VariableFont.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Karla';
+    font-size: 40px;
+    font-weight: bold;
+    src: local('Karla'), url("font/Karla-VariableFont_wght.ttf") format('truetype');
+}
+
+
+body {
+    margin: 0;
+    background: #1F2937;
+    margin-left: 52px;
+    margin-right: 52px;
+    font-family: "Inter";
+    color: #D5D4D8;
+}
+
+#name-part-1 {
+    font-family: "Karla";
+    color: white;
+    margin: 100px 0px 0px 0px;
+    font-size: 40px;
+}
+
+#name-part-2 {
+    font-family: "Karla";
+    color: #55F991;
+    margin: 0;
+    font-size: 40px;
+}
+#subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+#options {
+    width: 210px;
+}
+
+label {
+    display: inline-block;
+    width: 125px;
+}
+
+#password-length {
+    width: 3em;
+    text-align:center;
+  }
+
+button {
+    height: 40px;
+    width: 210px;
+    border-radius: 6px;
+    border-style: none;
+    margin-right: 25px;
+}
+
+#generator {
+    color: white;
+    background-color: #10B981;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+#passwords-box, #form-box {
+    padding-top: 35px;
+    border-top: 1px solid #2F3E53;
+    padding-bottom: 35px;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.sample-password {
+    background-color: #273549;
+    color: #55F991;
+    font-size: 16px;
+}
+
+p {
+    font-size: 12px;
+    font-style: italic;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 14;
+}

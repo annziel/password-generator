@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+    <title>My Password Generator - Second Solo Project with Scrimba</title>
+</head>
+
+<body>
+    <div id="title-box">
+        <h1 id="name-part-1">Generate a</h1>
+        <h1 id="name-part-2">random password</h1>
+        <h2 id="subtitle">Never use an insecure password again.</h2>
+    </div>
+    
+    <div id="form-box">
+        <div id="options">
+            <div>
+                <label>Password length</label> <input type="number" min="1" max="15" value="15" id="password-length">
+            </div>
+            <div>
+                <label for="numbers">Numbers?</label> <input type="checkbox" checked id="numbers">
+            </div>
+            <div>
+                <label for="symbols">Symbols?</label> <input type="checkbox" checked id="symbols">
+            </div>
+        </div>
+        <div>
+            <button id="generator" onclick="generateSamplePasswords()">Generate passwords</button>
+        </div>
+    </div>
+    
+    <div id="passwords-box">
+        <button class="sample-password" id="sample-password-1" onclick="copyPassword1()"></button>
+        <button class="sample-password" id="sample-password-2" onclick="copyPassword2()"></button>
+    </div>
+   
+    <div id="comments-box">
+        <p>Like it? Click on the password to copy!</p>
+        <p>That's not it? Try again!</p>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
